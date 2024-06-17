@@ -1,4 +1,4 @@
-import { Dashboard } from "@mui/icons-material";
+
 import { createBrowserRouter } from "react-router-dom";
 import Team from '../Components/Team';
 import Contacts from '../Components/Contacts';
@@ -11,6 +11,7 @@ import FAQ from '../Components/FAQ';
 import Geography from '../Components/Geography';
 import Calendar from '../Components/Calendar';
 import App from '../App'
+import Dashboard from '../Components/Dashboard';
 
 
 
@@ -25,7 +26,7 @@ import App from '../App'
     
     children : [
         {
-            path : "/dashboard",
+            path : "/",
             element: <Dashboard/>
         },
         {

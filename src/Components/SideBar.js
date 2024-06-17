@@ -16,6 +16,7 @@ import BarChartOutlinedIcon from '@mui/icons-material/BarChartOutlined';
 import PieChartOutlineOutlinedIcon from '@mui/icons-material/PieChartOutlineOutlined';
 import ShowChartOutlinedIcon from '@mui/icons-material/ShowChartOutlined';
 import MapOutlinedIcon from '@mui/icons-material/MapOutlined';
+import OtherHousesOutlinedIcon from '@mui/icons-material/OtherHousesOutlined';
 const SideBar = () => {
     const theme = useTheme();
     const colors = tokens(theme.palette.mode);
@@ -55,6 +56,16 @@ const SideBar = () => {
             <Typography variant='h4' align='center' paddingTop='10px'>Ajay Yadav</Typography>
         </Box>)}
         
+        {
+            isVisible && (
+                <Box display="flex" mt="10px" mb="5px" pl="60px">
+         <OtherHousesOutlinedIcon></OtherHousesOutlinedIcon>
+        <Link to="/"><Typography variant='h5'>Dashboard</Typography></Link>
+        </Box>
+            )
+        }
+
+
         {
             isVisible && (
                 <Menu>
