@@ -5,12 +5,12 @@ import Header from './Header'
 const Calendar = () => {
   return (
     <Box m="20px">
-      <Header title="Calendar" subTitle="Add events to calendar"/>
+      {/* <Header title="Calendar" subTitle="Add events to calendar"/>
       <Box display="flex" justifyContent="center" alignContent="center">
         <Typography variant='h1'>
-          Comming Soon!!............
+          Comming Soon!!
         </Typography>
-      </Box>
+      </Box> */}
     </Box>
   )
 }
