@@ -33,3 +33,13 @@ body,
 ::-webkit-scrollbar-track:hover{
   background: #555;
 }
+
+
+.dashboard {
+  transition: all 0.4s ease;
+ 
+}
+.dashboard:hover{
+  scale: 1.05;
+  border: 1px solid #d0d0d0;
+}

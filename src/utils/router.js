@@ -12,6 +12,7 @@ import Geography from '../Components/Geography';
 import Calendar from '../Components/Calendar';
 import App from '../App'
 import Dashboard from '../Components/Dashboard';
+import Cars from "../Components/Cars";
 
 
 
@@ -63,11 +64,16 @@ import Dashboard from '../Components/Dashboard';
         },
         {
             path : '/geography',
-            element : <Geography/>
+            element : <Geography/>,
+            
         },
         {
             path : '/calendar',
             element : <Calendar/>
+        },
+        {
+            path : '/cars',
+            element : <Cars/>
         },
     ]
 }

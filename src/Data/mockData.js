@@ -318,117 +318,145 @@ export const mockDataTeam = [
     },
   ];
   
-  export const mockBarData = [
+  export const mockBarData =[
     {
-      country: "AD",
-      "hot dog": 137,
-      "hot dogColor": "hsl(229, 70%, 50%)",
-      burger: 96,
-      burgerColor: "hsl(296, 70%, 50%)",
-      kebab: 72,
-      kebabColor: "hsl(97, 70%, 50%)",
-      donut: 140,
-      donutColor: "hsl(340, 70%, 50%)",
+      "country": "INDIA",
+      "Sport": 151,
+      "SportColor": "hsl(203, 70%, 50%)",
+      "Velar": 18,
+      "VelarColor": "hsl(195, 70%, 50%)",
+      "Autobiography": 122,
+      "AutobiographyColor": "hsl(91, 70%, 50%)",
+      "Defender": 75,
+      "DefenderColor": "hsl(359, 70%, 50%)",
+      "Discovery": 55,
+      "DiscoveryColor": "hsl(330, 70%, 50%)",
+      "SVR": 32,
+      "SVRColor": "hsl(124, 70%, 50%)"
     },
     {
-      country: "AE",
-      "hot dog": 55,
-      "hot dogColor": "hsl(307, 70%, 50%)",
-      burger: 28,
-      burgerColor: "hsl(111, 70%, 50%)",
-      kebab: 58,
-      kebabColor: "hsl(273, 70%, 50%)",
-      donut: 29,
-      donutColor: "hsl(275, 70%, 50%)",
+      "country": "UK",
+      "Sport": 101,
+      "SportColor": "hsl(120, 70%, 50%)",
+      "Velar": 163,
+      "VelarColor": "hsl(119, 70%, 50%)",
+      "Autobiography": 158,
+      "AutobiographyColor": "hsl(24, 70%, 50%)",
+      "Defender": 36,
+      "DefenderColor": "hsl(209, 70%, 50%)",
+      "Discovery": 97,
+      "DiscoveryColor": "hsl(152, 70%, 50%)",
+      "SVR": 141,
+      "SVRColor": "hsl(2, 70%, 50%)"
     },
     {
-      country: "AF",
-      "hot dog": 109,
-      "hot dogColor": "hsl(72, 70%, 50%)",
-      burger: 23,
-      burgerColor: "hsl(96, 70%, 50%)",
-      kebab: 34,
-      kebabColor: "hsl(106, 70%, 50%)",
-      donut: 152,
-      donutColor: "hsl(256, 70%, 50%)",
+      "country": "USA",
+      "Sport": 178,
+      "SportColor": "hsl(14, 70%, 50%)",
+      "Velar": 134,
+      "VelarColor": "hsl(201, 70%, 50%)",
+      "Autobiography": 83,
+      "AutobiographyColor": "hsl(169, 70%, 50%)",
+      "Defender": 76,
+      "DefenderColor": "hsl(42, 70%, 50%)",
+      "Discovery": 158,
+      "DiscoveryColor": "hsl(43, 70%, 50%)",
+      "SVR": 131,
+      "SVRColor": "hsl(182, 70%, 50%)"
     },
     {
-      country: "AG",
-      "hot dog": 133,
-      "hot dogColor": "hsl(257, 70%, 50%)",
-      burger: 52,
-      burgerColor: "hsl(326, 70%, 50%)",
-      kebab: 43,
-      kebabColor: "hsl(110, 70%, 50%)",
-      donut: 83,
-      donutColor: "hsl(9, 70%, 50%)",
+      "country": "Russia",
+      "Sport": 86,
+      "SportColor": "hsl(177, 70%, 50%)",
+      "Velar": 123,
+      "VelarColor": "hsl(194, 70%, 50%)",
+      "Autobiography": 47,
+      "AutobiographyColor": "hsl(107, 70%, 50%)",
+      "Defender": 42,
+      "DefenderColor": "hsl(327, 70%, 50%)",
+      "Discovery": 143,
+      "DiscoveryColor": "hsl(52, 70%, 50%)",
+      "SVR": 64,
+      "SVRColor": "hsl(200, 70%, 50%)"
     },
     {
-      country: "AI",
-      "hot dog": 81,
-      "hot dogColor": "hsl(190, 70%, 50%)",
-      burger: 80,
-      burgerColor: "hsl(325, 70%, 50%)",
-      kebab: 112,
-      kebabColor: "hsl(54, 70%, 50%)",
-      donut: 35,
-      donutColor: "hsl(285, 70%, 50%)",
+      "country": "PAK",
+      "Sport": 36,
+      "SportColor": "hsl(291, 70%, 50%)",
+      "Velar": 141,
+      "VelarColor": "hsl(259, 70%, 50%)",
+      "Autobiography": 88,
+      "AutobiographyColor": "hsl(212, 70%, 50%)",
+      "Defender": 32,
+      "DefenderColor": "hsl(326, 70%, 50%)",
+      "Discovery": 59,
+      "DiscoveryColor": "hsl(351, 70%, 50%)",
+      "SVR": 68,
+      "SVRColor": "hsl(313, 70%, 50%)"
     },
     {
-      country: "AL",
-      "hot dog": 66,
-      "hot dogColor": "hsl(208, 70%, 50%)",
-      burger: 111,
-      burgerColor: "hsl(334, 70%, 50%)",
-      kebab: 167,
-      kebabColor: "hsl(182, 70%, 50%)",
-      donut: 18,
-      donutColor: "hsl(76, 70%, 50%)",
+      "country": "AFG",
+      "Sport": 133,
+      "SportColor": "hsl(128, 70%, 50%)",
+      "Velar": 84,
+      "VelarColor": "hsl(176, 70%, 50%)",
+      "Autobiography": 10,
+      "AutobiographyColor": "hsl(47, 70%, 50%)",
+      "Defender": 115,
+      "DefenderColor": "hsl(109, 70%, 50%)",
+      "Discovery": 192,
+      "DiscoveryColor": "hsl(17, 70%, 50%)",
+      "SVR": 84,
+      "SVRColor": "hsl(146, 70%, 50%)"
     },
     {
-      country: "AM",
-      "hot dog": 80,
-      "hot dogColor": "hsl(87, 70%, 50%)",
-      burger: 47,
-      burgerColor: "hsl(141, 70%, 50%)",
-      kebab: 158,
-      kebabColor: "hsl(224, 70%, 50%)",
-      donut: 49,
-      donutColor: "hsl(274, 70%, 50%)",
-    },
-  ];
+      "country": "France",
+      "Sport": 37,
+      "SportColor": "hsl(175, 70%, 50%)",
+      "Velar": 200,
+      "VelarColor": "hsl(349, 70%, 50%)",
+      "Autobiography": 172,
+      "AutobiographyColor": "hsl(65, 70%, 50%)",
+      "Defender": 192,
+      "DefenderColor": "hsl(324, 70%, 50%)",
+      "Discovery": 138,
+      "DiscoveryColor": "hsl(313, 70%, 50%)",
+      "SVR": 192,
+      "SVRColor": "hsl(197, 70%, 50%)"
+    }
+  ]
   
   export const mockPieData = [
     {
-      id: "hack",
-      label: "hack",
-      value: 239,
-      color: "hsl(104, 70%, 50%)",
+      "id": "Sport",
+      "label": "Sport",
+      "value": 350,
+      "color": "hsl(173, 70%, 50%)"
     },
     {
-      id: "make",
-      label: "make",
-      value: 170,
-      color: "hsl(162, 70%, 50%)",
+      "id": "Defender",
+      "label": "Defender",
+      "value": 420,
+      "color": "hsl(258, 70%, 50%)"
     },
     {
-      id: "go",
-      label: "go",
-      value: 322,
-      color: "hsl(291, 70%, 50%)",
+      "id": "Discovery",
+      "label": "Discovery",
+      "value": 58,
+      "color": "hsl(154, 70%, 50%)"
     },
     {
-      id: "lisp",
-      label: "lisp",
-      value: 503,
-      color: "hsl(229, 70%, 50%)",
+      "id": "Velar",
+      "label": "Velar",
+      "value": 212,
+      "color": "hsl(8, 70%, 50%)"
     },
     {
-      id: "scala",
-      label: "scala",
-      value: 584,
-      color: "hsl(344, 70%, 50%)",
-    },
+      "id": "Autobiography",
+      "label": "Autobiography",
+      "value": 569,
+      "color": "hsl(4, 70%, 50%)"
+    }
   ];
   
   export const mockLineData = [
@@ -598,687 +626,687 @@ export const mockDataTeam = [
   
   export const mockGeographyData = [
     {
-      id: "AFG",
-      value: 520600,
+      "id": "AFG",
+      "value": 492872
     },
     {
-      id: "AGO",
-      value: 949905,
+      "id": "AGO",
+      "value": 626148
     },
     {
-      id: "ALB",
-      value: 329910,
+      "id": "ALB",
+      "value": 755115
     },
     {
-      id: "ARE",
-      value: 675484,
+      "id": "ARE",
+      "value": 397023
     },
     {
-      id: "ARG",
-      value: 432239,
+      "id": "ARG",
+      "value": 30095
     },
     {
-      id: "ARM",
-      value: 288305,
+      "id": "ARM",
+      "value": 764049
     },
     {
-      id: "ATA",
-      value: 415648,
+      "id": "ATA",
+      "value": 296924
     },
     {
-      id: "ATF",
-      value: 665159,
+      "id": "ATF",
+      "value": 586970
     },
     {
-      id: "AUT",
-      value: 798526,
+      "id": "AUT",
+      "value": 845202
     },
     {
-      id: "AZE",
-      value: 481678,
+      "id": "AZE",
+      "value": 423686
     },
     {
-      id: "BDI",
-      value: 496457,
+      "id": "BDI",
+      "value": 265225
     },
     {
-      id: "BEL",
-      value: 252276,
+      "id": "BEL",
+      "value": 873625
     },
     {
-      id: "BEN",
-      value: 440315,
+      "id": "BEN",
+      "value": 412039
     },
     {
-      id: "BFA",
-      value: 343752,
+      "id": "BFA",
+      "value": 458799
     },
     {
-      id: "BGD",
-      value: 920203,
+      "id": "BGD",
+      "value": 740809
     },
     {
-      id: "BGR",
-      value: 261196,
+      "id": "BGR",
+      "value": 467554
     },
     {
-      id: "BHS",
-      value: 421551,
+      "id": "BHS",
+      "value": 395577
     },
     {
-      id: "BIH",
-      value: 974745,
+      "id": "BIH",
+      "value": 711635
     },
     {
-      id: "BLR",
-      value: 349288,
+      "id": "BLR",
+      "value": 976009
     },
     {
-      id: "BLZ",
-      value: 305983,
+      "id": "BLZ",
+      "value": 344980
     },
     {
-      id: "BOL",
-      value: 430840,
+      "id": "BOL",
+      "value": 192190
     },
     {
-      id: "BRN",
-      value: 345666,
+      "id": "BRN",
+      "value": 50070
     },
     {
-      id: "BTN",
-      value: 649678,
+      "id": "BTN",
+      "value": 889984
     },
     {
-      id: "BWA",
-      value: 319392,
+      "id": "BWA",
+      "value": 51485
     },
     {
-      id: "CAF",
-      value: 722549,
+      "id": "CAF",
+      "value": 202773
     },
     {
-      id: "CAN",
-      value: 332843,
+      "id": "CAN",
+      "value": 291744
     },
     {
-      id: "CHE",
-      value: 122159,
+      "id": "CHE",
+      "value": 499704
     },
     {
-      id: "CHL",
-      value: 811736,
+      "id": "CHL",
+      "value": 907827
     },
     {
-      id: "CHN",
-      value: 593604,
+      "id": "CHN",
+      "value": 92285
     },
     {
-      id: "CIV",
-      value: 143219,
+      "id": "CIV",
+      "value": 655302
     },
     {
-      id: "CMR",
-      value: 630627,
+      "id": "CMR",
+      "value": 434114
     },
     {
-      id: "COG",
-      value: 498556,
+      "id": "COG",
+      "value": 932634
     },
     {
-      id: "COL",
-      value: 660527,
+      "id": "COL",
+      "value": 237308
     },
     {
-      id: "CRI",
-      value: 60262,
+      "id": "CRI",
+      "value": 492226
     },
     {
-      id: "CUB",
-      value: 177870,
+      "id": "CUB",
+      "value": 600893
     },
     {
-      id: "-99",
-      value: 463208,
+      "id": "-99",
+      "value": 930548
     },
     {
-      id: "CYP",
-      value: 945909,
+      "id": "CYP",
+      "value": 28117
     },
     {
-      id: "CZE",
-      value: 500109,
+      "id": "CZE",
+      "value": 243787
     },
     {
-      id: "DEU",
-      value: 63345,
+      "id": "DEU",
+      "value": 279011
     },
     {
-      id: "DJI",
-      value: 634523,
+      "id": "DJI",
+      "value": 130187
     },
     {
-      id: "DNK",
-      value: 731068,
+      "id": "DNK",
+      "value": 553004
     },
     {
-      id: "DOM",
-      value: 262538,
+      "id": "DOM",
+      "value": 811475
     },
     {
-      id: "DZA",
-      value: 760695,
+      "id": "DZA",
+      "value": 743042
     },
     {
-      id: "ECU",
-      value: 301263,
+      "id": "ECU",
+      "value": 705063
     },
     {
-      id: "EGY",
-      value: 148475,
+      "id": "EGY",
+      "value": 681451
     },
     {
-      id: "ERI",
-      value: 939504,
+      "id": "ERI",
+      "value": 778937
     },
     {
-      id: "ESP",
-      value: 706050,
+      "id": "ESP",
+      "value": 714606
     },
     {
-      id: "EST",
-      value: 977015,
+      "id": "EST",
+      "value": 861389
     },
     {
-      id: "ETH",
-      value: 461734,
+      "id": "ETH",
+      "value": 564341
     },
     {
-      id: "FIN",
-      value: 22800,
+      "id": "FIN",
+      "value": 91426
     },
     {
-      id: "FJI",
-      value: 18985,
+      "id": "FJI",
+      "value": 924223
     },
     {
-      id: "FLK",
-      value: 64986,
+      "id": "FLK",
+      "value": 159469
     },
     {
-      id: "FRA",
-      value: 447457,
+      "id": "FRA",
+      "value": 153742
     },
     {
-      id: "GAB",
-      value: 669675,
+      "id": "GAB",
+      "value": 658582
     },
     {
-      id: "GBR",
-      value: 757120,
+      "id": "GBR",
+      "value": 568708
     },
     {
-      id: "GEO",
-      value: 158702,
+      "id": "GEO",
+      "value": 629875
     },
     {
-      id: "GHA",
-      value: 893180,
+      "id": "GHA",
+      "value": 63497
     },
     {
-      id: "GIN",
-      value: 877288,
+      "id": "GIN",
+      "value": 17560
     },
     {
-      id: "GMB",
-      value: 724530,
+      "id": "GMB",
+      "value": 65519
     },
     {
-      id: "GNB",
-      value: 387753,
+      "id": "GNB",
+      "value": 556475
     },
     {
-      id: "GNQ",
-      value: 706118,
+      "id": "GNQ",
+      "value": 633247
     },
     {
-      id: "GRC",
-      value: 377796,
+      "id": "GRC",
+      "value": 279608
     },
     {
-      id: "GTM",
-      value: 66890,
+      "id": "GTM",
+      "value": 404402
     },
     {
-      id: "GUY",
-      value: 719300,
+      "id": "GUY",
+      "value": 30508
     },
     {
-      id: "HND",
-      value: 739590,
+      "id": "HND",
+      "value": 983578
     },
     {
-      id: "HRV",
-      value: 929467,
+      "id": "HRV",
+      "value": 760
     },
     {
-      id: "HTI",
-      value: 538961,
+      "id": "HTI",
+      "value": 644357
     },
     {
-      id: "HUN",
-      value: 146095,
+      "id": "HUN",
+      "value": 534383
     },
     {
-      id: "IDN",
-      value: 490681,
+      "id": "IDN",
+      "value": 325561
     },
     {
-      id: "IND",
-      value: 549818,
+      "id": "IND",
+      "value": 864575
     },
     {
-      id: "IRL",
-      value: 630163,
+      "id": "IRL",
+      "value": 446422
     },
     {
-      id: "IRN",
-      value: 596921,
+      "id": "IRN",
+      "value": 831733
     },
     {
-      id: "IRQ",
-      value: 767023,
+      "id": "IRQ",
+      "value": 607771
     },
     {
-      id: "ISL",
-      value: 478682,
+      "id": "ISL",
+      "value": 518227
     },
     {
-      id: "ISR",
-      value: 963688,
+      "id": "ISR",
+      "value": 651547
     },
     {
-      id: "ITA",
-      value: 393089,
+      "id": "ITA",
+      "value": 206095
     },
     {
-      id: "JAM",
-      value: 83173,
+      "id": "JAM",
+      "value": 954323
     },
     {
-      id: "JOR",
-      value: 52005,
+      "id": "JOR",
+      "value": 337188
     },
     {
-      id: "JPN",
-      value: 199174,
+      "id": "JPN",
+      "value": 323170
     },
     {
-      id: "KAZ",
-      value: 181424,
+      "id": "KAZ",
+      "value": 104068
     },
     {
-      id: "KEN",
-      value: 60946,
+      "id": "KEN",
+      "value": 124171
     },
     {
-      id: "KGZ",
-      value: 432478,
+      "id": "KGZ",
+      "value": 540302
     },
     {
-      id: "KHM",
-      value: 254461,
+      "id": "KHM",
+      "value": 796015
     },
     {
-      id: "OSA",
-      value: 942447,
+      "id": "OSA",
+      "value": 258856
     },
     {
-      id: "KWT",
-      value: 414413,
+      "id": "KWT",
+      "value": 791975
     },
     {
-      id: "LAO",
-      value: 448339,
+      "id": "LAO",
+      "value": 991675
     },
     {
-      id: "LBN",
-      value: 620090,
+      "id": "LBN",
+      "value": 429343
     },
     {
-      id: "LBR",
-      value: 435950,
+      "id": "LBR",
+      "value": 742151
     },
     {
-      id: "LBY",
-      value: 75091,
+      "id": "LBY",
+      "value": 424251
     },
     {
-      id: "LKA",
-      value: 595124,
+      "id": "LKA",
+      "value": 40395
     },
     {
-      id: "LSO",
-      value: 483524,
+      "id": "LSO",
+      "value": 498641
     },
     {
-      id: "LTU",
-      value: 867357,
+      "id": "LTU",
+      "value": 523523
     },
     {
-      id: "LUX",
-      value: 689172,
+      "id": "LUX",
+      "value": 485960
     },
     {
-      id: "LVA",
-      value: 742980,
+      "id": "LVA",
+      "value": 574138
     },
     {
-      id: "MAR",
-      value: 236538,
+      "id": "MAR",
+      "value": 454357
     },
     {
-      id: "MDA",
-      value: 926836,
+      "id": "MDA",
+      "value": 846026
     },
     {
-      id: "MDG",
-      value: 840840,
+      "id": "MDG",
+      "value": 44950
     },
     {
-      id: "MEX",
-      value: 353910,
+      "id": "MEX",
+      "value": 688172
     },
     {
-      id: "MKD",
-      value: 505842,
+      "id": "MKD",
+      "value": 247377
     },
     {
-      id: "MLI",
-      value: 286082,
+      "id": "MLI",
+      "value": 801407
     },
     {
-      id: "MMR",
-      value: 915544,
+      "id": "MMR",
+      "value": 306132
     },
     {
-      id: "MNE",
-      value: 609500,
+      "id": "MNE",
+      "value": 807590
     },
     {
-      id: "MNG",
-      value: 410428,
+      "id": "MNG",
+      "value": 876971
     },
     {
-      id: "MOZ",
-      value: 32868,
+      "id": "MOZ",
+      "value": 709421
     },
     {
-      id: "MRT",
-      value: 375671,
+      "id": "MRT",
+      "value": 236889
     },
     {
-      id: "MWI",
-      value: 591935,
+      "id": "MWI",
+      "value": 610620
     },
     {
-      id: "MYS",
-      value: 991644,
+      "id": "MYS",
+      "value": 862781
     },
     {
-      id: "NAM",
-      value: 701897,
+      "id": "NAM",
+      "value": 253894
     },
     {
-      id: "NCL",
-      value: 144098,
+      "id": "NCL",
+      "value": 166365
     },
     {
-      id: "NER",
-      value: 312944,
+      "id": "NER",
+      "value": 958724
     },
     {
-      id: "NGA",
-      value: 862877,
+      "id": "NGA",
+      "value": 476348
     },
     {
-      id: "NIC",
-      value: 90831,
+      "id": "NIC",
+      "value": 33049
     },
     {
-      id: "NLD",
-      value: 281879,
+      "id": "NLD",
+      "value": 126745
     },
     {
-      id: "NOR",
-      value: 224537,
+      "id": "NOR",
+      "value": 917112
     },
     {
-      id: "NPL",
-      value: 322331,
+      "id": "NPL",
+      "value": 707181
     },
     {
-      id: "NZL",
-      value: 86615,
+      "id": "NZL",
+      "value": 946937
     },
     {
-      id: "OMN",
-      value: 707881,
+      "id": "OMN",
+      "value": 638920
     },
     {
-      id: "PAK",
-      value: 158577,
+      "id": "PAK",
+      "value": 266386
     },
     {
-      id: "PAN",
-      value: 738579,
+      "id": "PAN",
+      "value": 517063
     },
     {
-      id: "PER",
-      value: 248751,
+      "id": "PER",
+      "value": 386324
     },
     {
-      id: "PHL",
-      value: 557292,
+      "id": "PHL",
+      "value": 441247
     },
     {
-      id: "PNG",
-      value: 516874,
+      "id": "PNG",
+      "value": 350228
     },
     {
-      id: "POL",
-      value: 682137,
+      "id": "POL",
+      "value": 881322
     },
     {
-      id: "PRI",
-      value: 957399,
+      "id": "PRI",
+      "value": 333800
     },
     {
-      id: "PRT",
-      value: 846430,
+      "id": "PRT",
+      "value": 123660
     },
     {
-      id: "PRY",
-      value: 720555,
+      "id": "PRY",
+      "value": 811824
     },
     {
-      id: "QAT",
-      value: 478726,
+      "id": "QAT",
+      "value": 198727
     },
     {
-      id: "ROU",
-      value: 259318,
+      "id": "ROU",
+      "value": 512768
     },
     {
-      id: "RUS",
-      value: 268735,
+      "id": "RUS",
+      "value": 218624
     },
     {
-      id: "RWA",
-      value: 136781,
+      "id": "RWA",
+      "value": 771501
     },
     {
-      id: "ESH",
-      value: 151957,
+      "id": "ESH",
+      "value": 190535
     },
     {
-      id: "SAU",
-      value: 111821,
+      "id": "SAU",
+      "value": 265750
     },
     {
-      id: "SDN",
-      value: 927112,
+      "id": "SDN",
+      "value": 122391
     },
     {
-      id: "SDS",
-      value: 966473,
+      "id": "SDS",
+      "value": 431340
     },
     {
-      id: "SEN",
-      value: 158085,
+      "id": "SEN",
+      "value": 388633
     },
     {
-      id: "SLB",
-      value: 178389,
+      "id": "SLB",
+      "value": 506498
     },
     {
-      id: "SLE",
-      value: 528433,
+      "id": "SLE",
+      "value": 916317
     },
     {
-      id: "SLV",
-      value: 353467,
+      "id": "SLV",
+      "value": 347169
     },
     {
-      id: "ABV",
-      value: 251,
+      "id": "ABV",
+      "value": 939493
     },
     {
-      id: "SOM",
-      value: 445243,
+      "id": "SOM",
+      "value": 826838
     },
     {
-      id: "SRB",
-      value: 202402,
+      "id": "SRB",
+      "value": 966041
     },
     {
-      id: "SUR",
-      value: 972121,
+      "id": "SUR",
+      "value": 877991
     },
     {
-      id: "SVK",
-      value: 319923,
+      "id": "SVK",
+      "value": 749926
     },
     {
-      id: "SVN",
-      value: 728766,
+      "id": "SVN",
+      "value": 452913
     },
     {
-      id: "SWZ",
-      value: 379669,
+      "id": "SWZ",
+      "value": 224623
     },
     {
-      id: "SYR",
-      value: 16221,
+      "id": "SYR",
+      "value": 263065
     },
     {
-      id: "TCD",
-      value: 101273,
+      "id": "TCD",
+      "value": 825217
     },
     {
-      id: "TGO",
-      value: 498411,
+      "id": "TGO",
+      "value": 869012
     },
     {
-      id: "THA",
-      value: 506906,
+      "id": "THA",
+      "value": 48052
     },
     {
-      id: "TJK",
-      value: 613093,
+      "id": "TJK",
+      "value": 596010
     },
     {
-      id: "TKM",
-      value: 327016,
+      "id": "TKM",
+      "value": 546946
     },
     {
-      id: "TLS",
-      value: 607972,
+      "id": "TLS",
+      "value": 857847
     },
     {
-      id: "TTO",
-      value: 936365,
+      "id": "TTO",
+      "value": 652957
     },
     {
-      id: "TUN",
-      value: 898416,
+      "id": "TUN",
+      "value": 864633
     },
     {
-      id: "TUR",
-      value: 237783,
+      "id": "TUR",
+      "value": 944020
     },
     {
-      id: "TWN",
-      value: 878213,
+      "id": "TWN",
+      "value": 449909
     },
     {
-      id: "TZA",
-      value: 442174,
+      "id": "TZA",
+      "value": 765080
     },
     {
-      id: "UGA",
-      value: 720710,
+      "id": "UGA",
+      "value": 886105
     },
     {
-      id: "UKR",
-      value: 74172,
+      "id": "UKR",
+      "value": 638582
     },
     {
-      id: "URY",
-      value: 753177,
+      "id": "URY",
+      "value": 186905
     },
     {
-      id: "USA",
-      value: 658725,
+      "id": "USA",
+      "value": 982046
     },
     {
-      id: "UZB",
-      value: 550313,
+      "id": "UZB",
+      "value": 308738
     },
     {
-      id: "VEN",
-      value: 707492,
+      "id": "VEN",
+      "value": 994517
     },
     {
-      id: "VNM",
-      value: 538907,
+      "id": "VNM",
+      "value": 908022
     },
     {
-      id: "VUT",
-      value: 650646,
+      "id": "VUT",
+      "value": 878096
     },
     {
-      id: "PSE",
-      value: 476078,
+      "id": "PSE",
+      "value": 500123
     },
     {
-      id: "YEM",
-      value: 957751,
+      "id": "YEM",
+      "value": 815752
     },
     {
-      id: "ZAF",
-      value: 836949,
+      "id": "ZAF",
+      "value": 83222
     },
     {
-      id: "ZMB",
-      value: 714503,
+      "id": "ZMB",
+      "value": 742436
     },
     {
-      id: "ZWE",
-      value: 405217,
+      "id": "ZWE",
+      "value": 218071
     },
     {
-      id: "KOR",
-      value: 171135,
-    },
-  ];
+      "id": "KOR",
+      "value": 294057
+    }
+  ]
