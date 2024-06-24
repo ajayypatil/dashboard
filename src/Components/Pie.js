@@ -10,7 +10,7 @@ const Pie = ({isDashboard}) => {
   return (
     <Box m="20px">
       <Header title="Pie Chart" subTitle="India Sales 2024" />
-      <Box height={isDashboard ? "300px" : "500px"} width={isDashboard ? '400px' : '80vw'}>
+      <Box height={isDashboard ? "41vh" : "68vh"} width={isDashboard ? '29vw' : '80vw'}>
         <ResponsivePie
           onClick={(event) => {
             const name = event.data.id;

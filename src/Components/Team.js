@@ -46,6 +46,19 @@ const Team = () => {
         pageSizeOptions={[5]}
         checkboxSelection
         disableRowSelectionOnClick
+        onRowSelectionModelChange={(newSelection) => {
+        console.log(newSelection);
+        let data =[];
+        let filteredData;
+         newSelection.forEach((id)=> {
+          filteredData = mockDataTeam.filter((obj)=> {
+          return obj.id == id;
+        });
+        const filteredObj = filteredData[0];
+        data.push(filteredObj)
+         })
+        console.log(data)
+      }}
         ></DataGrid>
       </Box>
     </Box>

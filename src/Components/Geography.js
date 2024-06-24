@@ -8,7 +8,7 @@ const Geography = ({isDashboard}) => {
   return (
     <Box m='20px'>
       <Header title="Geography Chart" subTitle=""/>
-      <Box height={isDashboard ? "300px" : "500px"} width={isDashboard ? "400px" : "85vw"}>
+      <Box height={isDashboard ? "41vh" : "68vh"} width={isDashboard ? "29vw" : "85vw"}>
       <ResponsiveChoropleth
         data={data}
         features={geoFeatures.features}
