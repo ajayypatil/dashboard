@@ -35,20 +35,21 @@ function Login() {
         //   else {
         //     navigte('/browse');
         //   };
+        
         fetch('https://dummyjson.com/auth/login', {
             method: 'POST',
             headers: {
                 "Content-Type": "application/json",
               },            
-            body: JSON.stringify({ username: email, password: password, expiresInMins : 30}, replacerFunc()),
-            credentials: 'include'
+            body: JSON.stringify({ username: email.current.value, password: password.current.value, expiresInMins : 30}, replacerFunc()),
+            // credentials: 'include'
 
         })
         .then((res) => res.json())
         .then((result) => { 
             console.log(result);
-           if(result.accesstoken){
-            const token = result.accesstoken;
+           if(result.accessToken){
+            const token = result.accessToken;
             localStorage.setItem('jsonWebToken', token)
            }
            else{
