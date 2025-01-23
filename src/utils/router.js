@@ -13,6 +13,7 @@ import Calendar from '../Components/Calendar';
 import App from '../App'
 import Dashboard from '../Components/Dashboard';
 import Cars from "../Components/Cars";
+import Login from "../Components/Login";
 
 
 
@@ -20,59 +21,63 @@ import Cars from "../Components/Cars";
 
 
 
- export const appRouter = createBrowserRouter([
+ export  const appRouter = createBrowserRouter([
     {
-        path: '/',
+        path : "/",
+        element : <Login/>
+    },
+    {
+        path: '/browse',
         element : <App/>,
     
     children : [
         {
-            path : "/",
+            path : "/browse",
             element: <Dashboard/>
         },
         {
-            path : '/team',
+            path : '/browse/team',
             element : <Team/>
         },
         {
-            path : '/contacts',
+            path : '/browse/contacts',
             element : <Contacts/>
         },
         {
-            path : '/invoices',
+            path : '/browse/invoices',
             element : <Invoices/>
         },
         {
-            path : '/form',
+            path : '/browse/form',
             element : <Form/>
         },
         {
-            path : '/bar',
+            path : '/browse/bar',
             element : <Bar/>
         },
         {
-            path : '/pie',
+            path : '/browse/pie',
             element : <Pie/>
         },
         {
-            path : '/line',
+            path : '/browse/line',
             element : <Line/>
         },
         {
-            path : '/faq',
+            path : '/browse/faq',
             element : <FAQ/>
         },
         {
-            path : '/geography',
+            path : '/browse/geography',
             element : <Geography/>,
             
         },
         {
-            path : '/calendar',
+            path : '/browse/calendar',
             element : <Calendar/>
         },
         {
-            path : '/cars',
+            path : '/browse/cars',
             element : <Cars/>
         },
     ]

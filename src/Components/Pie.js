@@ -15,7 +15,7 @@ const Pie = ({isDashboard}) => {
           onClick={(event) => {
             const name = event.data.id;
             navigate({
-              pathname: "/cars",
+              pathname: "/browse/cars",
               search: `?name=${name}`,
             });
           }}

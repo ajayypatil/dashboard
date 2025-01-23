@@ -8,7 +8,7 @@ const Line = ({isDashboard}) => {
   return (
    <Box m='20px'>
     <Header title="Line Chart" subTitle=""/>
-    <Box height={isDashboard ? "41vh" : "68vh"} width={isDashboard ? "45vw" : "83vw"}
+    <Box height={isDashboard ? "41vh" : "68vh"} width={isDashboard ? "43vw" : "80vw"}
     >
     <ResponsiveLine
         data={data}

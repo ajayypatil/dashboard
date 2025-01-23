@@ -16,7 +16,7 @@ const Dashboard = () => {
         <Box display="flex">
           <Box
             onClick={() => {
-              naviagte("/bar");
+              naviagte("/browse/bar");
             }}
             className="dashboard"
           >
@@ -25,7 +25,7 @@ const Dashboard = () => {
 
           <Box
             onClick={() => {
-              naviagte("/pie");
+              naviagte("/browse/pie");
             }}
             className="dashboard"
           >
@@ -35,7 +35,7 @@ const Dashboard = () => {
         <Box display="flex">
           <Box
             onClick={() => {
-              naviagte("/line");
+              naviagte("/browse/line");
             }}
             className="dashboard"
           >
@@ -44,7 +44,7 @@ const Dashboard = () => {
 
           <Box
             onClick={() => {
-              naviagte("/geography");
+              naviagte("/browse/geography");
             }}
             className="dashboard"
           >

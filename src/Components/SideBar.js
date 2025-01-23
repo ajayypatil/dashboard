@@ -17,6 +17,8 @@ import PieChartOutlineOutlinedIcon from '@mui/icons-material/PieChartOutlineOutl
 import ShowChartOutlinedIcon from '@mui/icons-material/ShowChartOutlined';
 import MapOutlinedIcon from '@mui/icons-material/MapOutlined';
 import OtherHousesOutlinedIcon from '@mui/icons-material/OtherHousesOutlined';
+
+
 const SideBar = () => {
     const theme = useTheme();
     const colors = tokens(theme.palette.mode);
@@ -60,7 +62,7 @@ const SideBar = () => {
             isVisible && (
                 <Box display="flex" mt="10px" mb="5px" pl="60px">
          <OtherHousesOutlinedIcon></OtherHousesOutlinedIcon>
-        <Link to="/"><Typography variant='h5'>Dashboard</Typography></Link>
+        <Link to="/browse"><Typography variant='h5'>Dashboard</Typography></Link>
         </Box>
             )
         }
@@ -70,21 +72,21 @@ const SideBar = () => {
             isVisible && (
                 <Menu>
             <SubMenu label='Data'>
-                <MenuItem component={<Link to="/team"/>}>
+                <MenuItem component={<Link to="/browse/team"/>}>
                 <Box display="flex" columnGap={2}>
                 <Diversity3OutlinedIcon></Diversity3OutlinedIcon>
                 Manage Team
                 </Box>
                  </MenuItem>
 
-                <MenuItem component={<Link to="/contacts"/>}> 
+                <MenuItem component={<Link to="/browse/contacts"/>}> 
                 <Box display="flex" columnGap={2}>
                 <ContactsOutlinedIcon></ContactsOutlinedIcon>
                 Contacts Information
                 </Box>
                </MenuItem>
 
-                <MenuItem component={<Link to="/invoices"/>}>
+                <MenuItem component={<Link to="/browse/invoices"/>}>
                 <Box display="flex" columnGap={2}>
                 <ReceiptOutlinedIcon></ReceiptOutlinedIcon>
                 Invoices Balances
@@ -94,21 +96,21 @@ const SideBar = () => {
 
 
             <SubMenu label='Pages'>
-                <MenuItem component={<Link to="/form"/>}> 
+                <MenuItem component={<Link to="/browse/form"/>}> 
                 <Box display="flex" columnGap={2}>
                 <AccountBoxOutlinedIcon></AccountBoxOutlinedIcon>
                 Profile Form 
                 </Box>
                 </MenuItem>
                 
-                <MenuItem component={<Link to="/calendar"/>}>
+                <MenuItem component={<Link to="/browse/calendar"/>}>
                 <Box display="flex" columnGap={2}>
                 <CalendarTodayOutlinedIcon></CalendarTodayOutlinedIcon>
                 Calendar 
                 </Box>
                  </MenuItem>
 
-                <MenuItem component={<Link to="/faq"/>}>
+                <MenuItem component={<Link to="/browse/faq"/>}>
                 <Box display="flex" columnGap={2}>
                 <LiveHelpOutlinedIcon></LiveHelpOutlinedIcon>
                 FAQ Page 
@@ -118,28 +120,28 @@ const SideBar = () => {
 
 
             <SubMenu label='Charts'>
-            <MenuItem component={<Link to="/bar"/>}>
+            <MenuItem component={<Link to="/browse/bar"/>}>
             <Box display="flex" columnGap={2}>
                 <BarChartOutlinedIcon></BarChartOutlinedIcon>
                 Bar Chart
                 </Box>
              </MenuItem>
 
-            <MenuItem component={<Link to="/pie"/>}>
+            <MenuItem component={<Link to="/browse/pie"/>}>
             <Box display="flex" columnGap={2}>
                 <PieChartOutlineOutlinedIcon></PieChartOutlineOutlinedIcon>
                 Pie Chart 
                 </Box>
              </MenuItem>
 
-            <MenuItem component={<Link to="/line"/>}>
+            <MenuItem component={<Link to="/browse/line"/>}>
             <Box display="flex" columnGap={2}>
                 <ShowChartOutlinedIcon></ShowChartOutlinedIcon>
                 Line Chart 
                 </Box>
              </MenuItem>
 
-            <MenuItem component={<Link to="/geography"/>}>
+            <MenuItem component={<Link to="/browse/geography"/>}>
             <Box display="flex" columnGap={2}>
                 <MapOutlinedIcon></MapOutlinedIcon>
                 Geography Chart 

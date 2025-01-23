@@ -8,7 +8,7 @@ const Bar = ({isDashboard}) => {
   return (
    <Box  m='20px'>
    <Header title="Bar Chart" subTitle="Sales Bar Chart"/>
-     <Box height={isDashboard ? "41vh" : "68vh"} width={isDashboard ? "45vw" : "83vw"}>
+     <Box height={isDashboard ? "41vh" : "68vh"} width={isDashboard ? "43vw" : "80vw"}>
     <ResponsiveBar
         data={data}
         keys={[
