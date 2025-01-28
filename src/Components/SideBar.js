@@ -17,12 +17,16 @@ import PieChartOutlineOutlinedIcon from '@mui/icons-material/PieChartOutlineOutl
 import ShowChartOutlinedIcon from '@mui/icons-material/ShowChartOutlined';
 import MapOutlinedIcon from '@mui/icons-material/MapOutlined';
 import OtherHousesOutlinedIcon from '@mui/icons-material/OtherHousesOutlined';
-
+import { useSelector } from 'react-redux';
 
 const SideBar = () => {
     const theme = useTheme();
     const colors = tokens(theme.palette.mode);
     const [isVisible, setIsVisible] = useState(true);
+    // const token =  localStorage.getItem('jsonWebToken');
+    // let name = token.username;
+    const userName = useSelector((store)=> store.user.userName);
+    const userImage = useSelector((store)=> store.user.userImage);
     
   return (
     <Box width={isVisible ? ("undefined"):("50px")}
@@ -55,7 +59,7 @@ const SideBar = () => {
         </Box>
         {isVisible && (<Box align="center" marginTop="20px">
             <img src={user} alt='UserIcon' height="100px" ></img>
-            <Typography variant='h4' align='center' paddingTop='10px'>Ajay Yadav</Typography>
+            <Typography variant='h4' align='center' paddingTop='10px'>{userName}</Typography>
         </Box>)}
         
         {

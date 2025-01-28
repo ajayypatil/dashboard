@@ -21,69 +21,68 @@ import Login from "../Components/Login";
 
 
 
- export  const appRouter = createBrowserRouter([
+export const appRouter = createBrowserRouter([
     {
-        path : "/",
-        element : <Login/>
+        path: "/",
+        element: <Login />
     },
     {
         path: '/browse',
-        element : <App/>,
-    
-    children : [
-        {
-            path : "/browse",
-            element: <Dashboard/>
-        },
-        {
-            path : '/browse/team',
-            element : <Team/>
-        },
-        {
-            path : '/browse/contacts',
-            element : <Contacts/>
-        },
-        {
-            path : '/browse/invoices',
-            element : <Invoices/>
-        },
-        {
-            path : '/browse/form',
-            element : <Form/>
-        },
-        {
-            path : '/browse/bar',
-            element : <Bar/>
-        },
-        {
-            path : '/browse/pie',
-            element : <Pie/>
-        },
-        {
-            path : '/browse/line',
-            element : <Line/>
-        },
-        {
-            path : '/browse/faq',
-            element : <FAQ/>
-        },
-        {
-            path : '/browse/geography',
-            element : <Geography/>,
-            
-        },
-        {
-            path : '/browse/calendar',
-            element : <Calendar/>
-        },
-        {
-            path : '/browse/cars',
-            element : <Cars/>
-        },
-    ]
-}
-  ]);
+        element: <App />,
+
+        children: [
+            {
+                path: "/browse",
+                element: <Dashboard />
+            },
+            {
+                path: '/browse/team',
+                element: <Team />
+            },
+            {
+                path: '/browse/contacts',
+                element: <Contacts />
+            },
+            {
+                path: '/browse/invoices',
+                element: <Invoices />
+            },
+            {
+                path: '/browse/form',
+                element: <Form />
+            },
+            {
+                path: '/browse/bar',
+                element: <Bar />
+            },
+            {
+                path: '/browse/pie',
+                element: <Pie />
+            },
+            {
+                path: '/browse/line',
+                element: <Line />
+            },
+            {
+                path: '/browse/faq',
+                element: <FAQ />
+            },
+            {
+                path: '/browse/geography',
+                element: <Geography />,
+
+            },
+            {
+                path: '/browse/calendar',
+                element: <Calendar />
+            },
+            {
+                path: '/browse/cars',
+                element: <Cars />
+            },
+        ]
+    }
+]);
 
 
 
-  
